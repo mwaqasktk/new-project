@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Colorlib</title>
+</head>
+<style>
+    .bg1 {
+        background-color: #333333;
+    }
+
+    .bg2 {
+        background-color: #222222;
+    }
+
+    .bg3 {
+        background-color: #1E1E27;
+    }
+
+    .background {
+        background-image: url(./background.webp);
+    }
+
+    .blackboy {
+        background-color: #F2F2F2;
+    }
+
+    .heart {
+        opacity: 0;
+
+    }
+
+    .cart {
+        opacity: 0;
+    }
+
+    .card:hover .heart {
+        opacity: 100;
+
+    }
+
+    .card:hover .cart {
+        opacity: 100;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="">
+        <div class="flex  bg3 p-3 justify-evenly  ">
+            <div>
+                <p class="text-gray-300 text-xs font-thin tracking-widest  ">FREE SHIPPING ON ALL U.S ORDERS OVER $50
+                </p>
+            </div>
+            <div class="space-x-8">
+                <a class="text-purple-200 text-sm font-thin border-r border-gray-700 p-3 px-10 " href="">USD</a>
+                <a class="text-purple-200 text-sm font-thin border-r border-gray-700 p-3 px-5 -mx-20"
+                    href="">English</a>
+                <a class="text-purple-200 text-sm font-thin  " href="">My Account</a>
+            </div>
+        </div>
+    </div>
+    <div class=" w-screen bg-white">
+        <div class="flex justify-evenly p-8 border shadow-lg ">
+            <div class="flex ">
+                <p class="text-black text-2xl font-bold ">COLO</p>
+                <P class="text-red-600 text-2xl font-bold ">SHOP</P>
+            </div>
+            <div class="space-x-8  ">
+                <a class="text-black text-xs font-semibold" href="">HOME</a>
+                <a class="text-black text-xs font-semibold " href="">SHOP</a>
+                <a class="text-black text-xs font-semibold" href="">PROMOTION</a>
+                <a class="text-black text-xs font-semibold" href="">BLOG</a>
+                <a class="text-black text-xs font-semibold" href="">CONTACT</a>
+                <a class="text-black text-xs font-semibold" href="">PAGES</a>
+
+
+            </div>
+            <div class="flex space-x-8  ">
+                <a href="">
+                    <img class="h-4 " src="search.png" alt="">
+                </a>
+                <a href="">
+                    <img class="h-4" src="user.png" alt="">
+                </a>
+                <div class=" border p-3 -mt-3 rounded-full bg-gray-100 ">
+                    <a href="">
+                        <img class="h-4 " src="cart2.png" alt="">
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class=" h-full ">
+        <div class=" -mt-1 ">
+            <img src="background.webp" alt="">
+        </div>
+        <div class="  -mt-96 w-1/3 mx-72 space-y-8 ">
+            <p class=" text-sm text-black font-semibold  ">SPRING / SUMMER COLLECTION 2017</p>
+            <h1 class="text-7xl text-black  ">Get up to 30% Off New Arrivals</h1>
+            <button class="bg-red-500 rounded-sm text-white text-sm px-5 py-2 hover:bg-red-400">SHOP NOW</button>
+        </div>
+    </div>
+
+    <div class="flex  mt-40 justify-center  space-x-6">
+
+        <div class="border ">
+            <img src="girl.webp" alt="">
+            <div class="">
+                <div class="  -my-40 mx-24 ">
+                    <a class="text-2xl font-semibold px-8 py-2 bg-white hover:text-gray-600"
+                        href="https://preview.colorlib.com/#coloshop">
+                        WOMEN'S </a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div>
+            <img src="purse.webp" alt="">
+            <div class="  -my-40 mx-24 ">
+                <a class="text-2xl font-semibold px-8 py-2 bg-white hover:text-gray-600"
+                    href="https://preview.colorlib.com/#coloshop">
+                    ACCESSORIES'S </a>
+            </div>
+        </div>
+        <div>
+            <img src="boy.webp" alt="">
+            <div class="  -my-40 mx-24 ">
+                <a class="text-2xl font-semibold px-8 py-2 bg-white hover:text-gray-600"
+                    href="https://preview.colorlib.com/#coloshop">
+                    MEN'S </a>
+            </div>
+        </div>
+    </div>
+
+    <div class=" py-96 text-center space-y-6">
+        <div>
+            <p class="text-4xl font-semibold ">New Arrivals</p>
+        </div>
+        <div class="justify-center flex">
+            <div class="border-2 w-16 border-red-600"></div>
+        </div>
+
+    </div>
+
+    <div class="-mt-80">
+        <div class="flex justify-center">
+            <p class="px-6 py-2 w-24 text-sm text-center hover:bg-red-400  bg-red-500 rounded-sm text-white ">ALL</p>
+            <p class="px-5 py-2 w-28 text-sm text-center bg-white rounded-sm text-black border">WOMEN'S</p>
+            <p class="px-5 py-2 w-40 text-sm text-center bg-white rounded-sm text-black border ">ACCESSORIES</p>
+            <p class="px-5 py-2 w-24 text-sm text-center bg-white rounded-sm text-black border ">MEN'S</p>
+        </div>
+    </div>
+
+    <div class=" -mt-80">
+        <div class="grid grid-cols-5 m-96 gap-8">
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart  " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">-$20</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="jacket.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$520.00</p>
+                    <p class="text-gray-500  font-semibold ">$590.00</p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-xs bg-green-500 py- px-2">NEW</p>
+                        <img class=" mx-6 " src="" alt="">
+                    </div>
+                </div>
+                <img src="beg.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$610.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart" src="heart.png" alt="">
+
+                </div>
+                <img src="yellow.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$120.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">SALE</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="bag.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$410.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">-$20</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="shoe.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$180.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">-$20</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="glasses.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$520.00</p>
+                    <p class="text-gray-500  font-semibold ">$590.00</p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+
+                </div>
+                <img src="brown.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$610.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+
+                </div>
+                <img src="batwa.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$410.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-x card hover:shadow-2xl   space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">SALE</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="coat.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$180.00</p>
+
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+
+                </div>
+                <img src="silver.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$520.00</p>
+                    <p class="text-gray-500  font-semibold ">$590.00</p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="-mt-80 ">
+        <div class="w-screen blackboy border   ">
+            <div class=" mx-80 px-20   ">
+                <img src="blackboy.webp" alt="">
+            </div>
+        </div>
+
+        <div class="w-screen flex justify-end ">
+            <div class="  w-1/2 space-y-10 px-32 -mt-96 ">
+                <div class="">
+                    <p class="text-4xl font-semibold   -my-5 ">Deal Of The Week</p>
+                </div>
+                <div class=" px-32 ">
+                    <div class="border-2 w-16 border-red-600"></div>
+                </div>
+                <div class="flex -mx-20 space-x-4">
+                    <div class="rounded-full h-32 w-32   px-12 py-5 bg-white border-black">
+                        <p class=" text-red-600 font-bold text-5xl">2 </p>
+                        <p class="text-black font-semibold ">Day</p>
+                    </div>
+                    <div class="rounded-full h-32 w-32  px-8 py-5 bg-white border-black">
+                        <p class=" text-red-600 font-bold text-5xl">23 </p>
+                        <p class="text-black font-semibold px-3 ">Hours</p>
+                    </div>
+                    <div class="rounded-full h-32 w-32  px-8 py-5 bg-white border-black">
+                        <p class=" text-red-600 font-bold text-5xl">20 </p>
+                        <p class="text-black font-semibold px-3 ">Mins</p>
+                    </div>
+                    <div class="rounded-full h-32 w-32  px-8 py-5 bg-white border-black">
+                        <p class=" text-red-600 font-bold text-5xl">30 </p>
+                        <p class="text-black font-semibold px-3 ">Sec</p>
+                    </div>
+                </div>
+                <div class=" px-28">
+                    <div class="  ">
+                        <button class="text-white bg-black text-sm font-semibold rounded-sm px-8 py-2"> SHOP
+                            NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="   ">
+        <div class="mt-10">
+            <div class="justify-center flex ">
+                <p class="text-4xl font-semibold  my-5 ">Best Sellers</p>
+            </div>
+            <div class="justify-center flex  ">
+                <div class="border-2 w-16 border-red-600"></div>
+            </div>
+        </div>
+        <div class="grid grid-cols-5 m-96 -mt-1 gap-8">
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart  " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">-$20</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="jacket.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$520.00</p>
+                    <p class="text-gray-500  font-semibold ">$590.00</p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-xs bg-green-500 py- px-2">NEW</p>
+                        <img class=" mx-6 " src="" alt="">
+                    </div>
+                </div>
+                <img src="beg.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$610.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-5 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart" src="heart.png" alt="">
+
+                </div>
+                <img src="yellow.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$120.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">SALE</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="bag.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$410.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+            <div class="w-52 border-r card hover:shadow-2xl  space-y-4 cursor-pointer">
+                <div class="flex justify-between p-2">
+                    <img class="w-4 h-4 heart " src="heart.png" alt="">
+                    <div class="relative">
+                        <p class="absolute text-white text-sm py-1 px-2">-$20</p>
+                        <img class="w-12 h-8  " src="meassage.png" alt="">
+                    </div>
+                </div>
+                <img src="shoe.webp" alt="">
+                <p class="text-black text-sm text-center font-semibold hover:text-gray-400 ">Fujifilm X100T 16 MP
+                    Digital Camera ( Silver)
+                </p>
+                <div class="flex justify-center space-x-4 ">
+                    <p class="text-red-600  font-semibold ">$180.00</p>
+                    <p class="text-gray-500  font-semibold "></p>
+                </div>
+                <p
+                    class="PX-20 py-2 w-52 cart hover:bg-red-400  bg-red-600 cursor-pointer text-white text-xs text-center  font-semibold ">
+                    ADD
+                    TO CART</p>
+            </div>
+        </div>
+
+        <div class="flex   space-x-1 justify-center -mt-80">
+            <div class="flex bg-gray-200 px-2 py-5">
+                <img class="h-8" src="truck.png" alt="">
+                <div class=" mt-1 mx-5">
+                    <h1 class="text-xs font-semibold">FREE SHIPPING</h1>
+                    <p class="text-sm text-gray-800">Suffered Alteration in Some Form</p>
+                </div>
+
+            </div>
+
+            <div class="flex bg-gray-200 px-2 py-5  ">
+                <img class="h-8" src="cash.png" alt="">
+                <div class=" mt-1 mx-5">
+                    <h1 class="text-xs font-semibold">FREE SHIPPING</h1>
+                    <p class="text-sm text-gray-800">Suffered Alteration in Some Form</p>
+                </div>
+
+            </div>
+
+            <div class="flex bg-gray-200 px-2 py-5">
+                <img class="h-8" src="turn.png" alt="">
+                <div class=" mt-1 mx-5">
+                    <h1 class="text-xs font-semibold">FREE SHIPPING</h1>
+                    <p class="text-sm text-gray-800">Suffered Alteration in Some Form</p>
+                </div>
+
+            </div>
+
+            <div class="flex bg-gray-200  py-5 px-2">
+                <img class="h-8" src="clock.png" alt="">
+                <div class=" mt-1 mx-5">
+                    <h1 class="text-xs font-semibold">FREE SHIPPING</h1>
+                    <p class="text-sm text-gray-800">Suffered Alteration in Some Form</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="mt-10">
+            <div class="justify-center flex ">
+                <p class="text-5xl font-semibold  my-5 ">Latest Blogs</p>
+            </div>
+            <div class="justify-center flex  ">
+                <div class="border-2 w-16 border-red-600"></div>
+            </div>
+        </div>
+        <div class="flex justify-center space-x-8 mt-10">
+            <img src="roman.webp" alt="">
+            <img src="girll.webp" alt="">
+            <img src="shoes.webp" alt="">
+        </div>
+    </div>
+    <div class="mt-20">
+
+
+        <div class=" flex justify-center w-screen space-x-56 py-5 bg-gray-100">
+            <div>
+                <h1 class="text-2xl">Newsletter</h1>
+                <p class="font-semibold text-gray-600">Subscribe to our newsletter and get 20% off your first purchase
+                </p>
+            </div>
+            <div class="flex  ">
+                <input class="px-20 my-1  " type="text" name="" id="" placeholder="Your email">
+                <button class="bg-red-500 text-white text-sm px-12 my-1 font-semibold">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div class=" mt-10  ">
+        <div class="flex justify-around">
+            <div class="flex space-x-10">
+                <p class="text-gray-500 text-sm">Blog</p>
+                <p class="text-gray-500 text-sm">FAQs</p>
+                <p class="text-gray-500 text-sm">Contact us</p>
+            </div>
+            <div class="flex space-x-10">
+                <img class="h-4" src="facebook.png" alt="">
+                <img class="h-4" src="twitter.png" alt="">
+                <img class="h-4" src="insta.png" alt="">
+                <img class="h-4" src="skype.png" alt="">
+                <img class="h-4" src="power.png" alt="">
+            </div>
+        </div>
+
+        <div class="flex justify-left mt-10 px-80 mx-10 py-10">
+            <p class="text-sm text-gray-600 px-1">©2018 All Rights Reserverd. This template is made with</p>
+            <img class="h-4 my-1 " src="heart.png" alt="">
+            <p class="text-sm text-gray-600 px-1">by</p>
+            <p class="text-red-400 px-1">Colorlib</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
